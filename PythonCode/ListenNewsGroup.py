@@ -1,4 +1,4 @@
-
+#This file used to get NewGroup information.
 from nntplib import NNTP
 from time import strftime, time, localtime
 day = 24 * 60 * 60

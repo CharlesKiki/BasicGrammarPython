@@ -1,4 +1,3 @@
-#4565152 Charles
 class VenueType(object):
     def __init__(self,type,hour):
         if type.lower() == 's':

@@ -1,4 +1,3 @@
-#s4565152 ZhangJunzu  Data 12.6
 #Practicak Task1
 Large = 0.1
 Small = 0.08

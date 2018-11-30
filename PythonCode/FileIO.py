@@ -1,4 +1,3 @@
-#Zhangjunzu Charkes 4565152
 print('Student Name ' + "                     " + 'Average Mark')
 print('------------------------------------------------')
 file = open("studMarks.txt", "r")

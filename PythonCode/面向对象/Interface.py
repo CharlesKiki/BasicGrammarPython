@@ -1,4 +1,3 @@
-#4565152 Charles
 from VenueBookings import VenueType
 def main():
     Name = input("Please input customer name:")
@@ -12,4 +11,3 @@ def main():
     Example = VenueType(Type,Hour)
     print(Example)
 main()
-

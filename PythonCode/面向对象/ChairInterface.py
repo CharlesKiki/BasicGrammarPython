@@ -1,4 +1,3 @@
-#4565152 Charles
 from ChairClassExtension import Calculator
 def main():
     print("------------Comfort Chair Hire - Hire Bookings-----------\n")
@@ -11,4 +10,3 @@ def main():
     Example = Calculator(Name,Number,Time,Type.lower()) #name,number,time,type
     print(Example)
 main()
-

@@ -1,4 +1,4 @@
-import platform 
+import platform
 os = platform.system()
 print (os)
 print (platform.platform())
@@ -9,7 +9,7 @@ print (platform.architecture())
     python中，platform模块给我们提供了很多方法去获取操作系统的信息
     如：
         import platform
-        platform.platform()        #获取操作系统名称及版本号，'Linux-3.13.0-46-generic-i686-with-Deepin-2014.2-trusty'  
+        platform.platform()        #获取操作系统名称及版本号，'Linux-3.13.0-46-generic-i686-with-Deepin-2014.2-trusty'
         platform.version()         #获取操作系统版本号，'#76-Ubuntu SMP Thu Feb 26 18:52:49 UTC 2015'
         platform.architecture()    #获取操作系统的位数，('32bit', 'ELF')
         platform.machine()         #计算机类型，'i686'
@@ -134,7 +134,7 @@ def show_python_info():
     print(get_python_version())
     print(get_python_revision())
     print(get_python_version_tuple())
-      
+
 def test():
     print('操作系统信息:')
     if SHOW_LOG:
@@ -151,7 +151,7 @@ def test():
 def init():
     global SHOW_LOG
     SHOW_LOG = True
-    
+
 def main():
     init()
     test()

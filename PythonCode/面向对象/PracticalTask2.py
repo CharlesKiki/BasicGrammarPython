@@ -1,4 +1,3 @@
-#Zhangjunzu Charles 4565152
 VIPSTAs=0.03#vip and staff
 REGs=0.02#reg
 while True:
@@ -24,7 +23,7 @@ print('Year        Interest    Ending balance')
 all=Deposit
 for count in range(Term):
     number =  count +1
-    #here the number is used to show the right year 
+    #here the number is used to show the right year
     if Type == "VIP" or Type == "STAFF":
         value=all*VIPSTAs
         all=all+value
@@ -41,4 +40,3 @@ elif Type == "REG":
 print("Ending balance: $%0.2f" %all)
 all_interest=all-Deposit
 print("Total interest earned: $%0.2f" %all_interest)
-

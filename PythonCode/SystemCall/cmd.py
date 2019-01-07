@@ -1,5 +1,8 @@
 #!/usr/bin/env python
-#This file can call system command.
+'''
+    功能：
+        This file can call system command.
+'''
 import os
 import re
 

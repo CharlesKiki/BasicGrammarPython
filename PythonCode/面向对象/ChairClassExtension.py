@@ -1,5 +1,4 @@
-#Variable initialization
-#4565152 Charles
+
 class Calculator(object):
     def __init__(self,name,number,time,type):
         self._name = name

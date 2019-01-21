@@ -6,6 +6,7 @@ import tensorflow as tf
 #定义变量、定义函数、定义操作步骤等，中间隐藏着把变量转化为张量的步骤
 #用tf.Variable来定义变量
 #注意：定义矩阵的写法([[],[],[]...])
+#常数节点 constant node
 a = tf.Variable([[2,3]])
 b = tf.Variable([[4],[2]])
 
